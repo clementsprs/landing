@@ -1,0 +1,46 @@
+.banner {
+  background-image: linear-gradient(to right, rgba(50, 70, 80, 0.5), rgba(30, 20, 150, 0.5)), url(https://source.unsplash.com/random);
+  height: 70vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  position: relative;
+}
+
+.banner img {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  left: 50%;
+  top: 20px
+}
+
+.banner .container {
+  color: white;
+  filter: none;
+  padding-left: 50px;
+}
+
+.banner .container a {
+  text-decoration: none;
+  background-color: #36AE7C;
+  padding: 12px;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.banner .container h1 {
+  font-size: 50px;
+  margin: 10px;
+}
+
+.banner .container p {
+  font-size: 20px;
+  margin: 10px;
+  padding-bottom: 30px;
+}
